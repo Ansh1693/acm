@@ -43,8 +43,10 @@ const Main = () => {
         <Landing />
       </div>
       <div className="hidden" id="home">
+        <div className="h-screen w-screen bg-red-400">
         <Navbar />
-        <div className="h-screen w-screen bg-red-400"></div>
+        </div>
+        
       </div>
     </div>
     // <div></div>
